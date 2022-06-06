@@ -23,7 +23,7 @@ if (x == 'e')
 
 putchar(x);
 }
-putchar('\n')
+putchar('\n');
 
 return (0);
 }
