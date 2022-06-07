@@ -17,7 +17,7 @@ for (y = x + 1; y <= '9'; y++)
 putchar(x);
 putchar(y);
 
-if (x + '8')
+if (x = '8')
 {
 	putchar(',');
 	putchar(' ');
