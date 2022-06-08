@@ -16,11 +16,11 @@ int m = 'a';
 
 while (m <= 'z')
 {
-putchar(m);
+_putchar(m);
 m++;
 }
 
-putchar("\n");
+_putchar("\n");
 n++;
 }
 
