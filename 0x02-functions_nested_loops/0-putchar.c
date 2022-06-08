@@ -6,7 +6,7 @@
   * Return: void
   */
 
-int _putchar(char c)
+int _putchar(char i)
 
 char str[] = "_putchar";
 
