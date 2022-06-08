@@ -23,6 +23,4 @@ m++;
 _putchar('\n');
 n++;
 }
-
-return (void);
 }
