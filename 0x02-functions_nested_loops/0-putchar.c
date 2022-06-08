@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
-  *
+  * _putchar - writes a character c to stdout
   *
   * Return: void
   */
 
-int _putchar(char i)
-
+int _putchar(char c)
+{
 char str[] = "_putchar";
 
-int i = 0;
+char c = 0;
 
-while (str[i] != '\0')
+while (str[c] != '\0')
 {
-_putchar(str[i];
-i++;
+_putchar(str[c];
+c++;
+}
 }
