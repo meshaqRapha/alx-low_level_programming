@@ -12,7 +12,7 @@ int n = 0;
 
 while (n <= 10)
 {
-int m = 'a';
+char m = 'a';
 
 while (m <= 'z')
 {
@@ -20,7 +20,7 @@ _putchar(m);
 m++;
 }
 
-_putchar("\n");
+_putchar('\n')
 n++;
 }
 
