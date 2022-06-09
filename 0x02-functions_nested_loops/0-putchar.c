@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,9 +7,9 @@
   * Return: void
   */
 
-int main(void)
-{
 int _putchar(char c)
+
+int main(void)
 {
 char str[] = "_putchar";
 
@@ -20,7 +19,6 @@ while (str[c] != '\0')
 {
 _putchar(str[c]);
 c++;
-}
 }
 
 return (0);
