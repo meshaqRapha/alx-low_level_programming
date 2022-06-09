@@ -2,24 +2,20 @@
 
 /**
   * main - Entry point
-  * _putchar - writes a character c to stdout
-  * @c: chatacter to be printed
-  * Return: void
+  * Return: 0
   */
-
-int _putchar(char c)
 
 int main(void)
 {
-char str[] = "_putchar";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-c = 0;
-
-while (str[c] != '\0')
-{
-_putchar(str[c]);
-c++;
-}
-
-return (0);
+	return (0);
 }
