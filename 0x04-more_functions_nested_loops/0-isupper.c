@@ -15,7 +15,10 @@ if (c >= 'a' && c <= 'z')
 
 else
 {
+if (c >= 'A' && c <= 'Z')
+{
 	return (0);
+}
 }
 _putchar('\n');
 }
