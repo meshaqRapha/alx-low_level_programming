@@ -4,13 +4,10 @@
   * mul - multiplies two integers
   * @a: first integer
   * @b: second integer
-  * Return: Always 0
+  * Return: multiplication
   */
 
 int mul(int a, int b)
 {
-	int mul = a * b;
-
-	return (mul);
-	_putchar('\n');
+	return (a * b);
 }
