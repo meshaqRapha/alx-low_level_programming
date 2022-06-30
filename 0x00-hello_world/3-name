@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -pie
+gcc $CFILE -o cisfun
