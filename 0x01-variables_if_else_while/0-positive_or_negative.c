@@ -2,28 +2,22 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - Enrtry point,positive or negative,print sign of random number
-*@void:Empty parameter list for main
-*Description: Positive,zero and negative values
-*return: zero on success
+ * main - assigns a random number to the value of n everytime
+ * it executes and prints it
+ * Return: 0 if (successful)
 */
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-	puts("%d is positive\n", n);
-	}	
-	else if (n == 0)
-	{
-	puts("%d is zero\n", n);		
-	} 	
-	else
-	{
-	puts("%d is negative\n", n);
-	}
-	return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is positive\n", n);
+else if (n == 0)
+printf("%d is zero\n", n);
+else if (n < 0)
+printf("%d is negative\n", n);
+return (0);
 }
+
