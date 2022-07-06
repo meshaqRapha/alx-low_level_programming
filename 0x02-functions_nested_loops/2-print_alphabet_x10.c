@@ -13,9 +13,9 @@ for (vv = 0; vv <= 9; vv++)
 {
 for (jj = 'a'; jj <= 'z'; jj++)
 {
-_putchar(c);
+_putchar(jj);
 }
-_putchar('\n') ; :
+_putchar('\n') ;
 }
 }
 
