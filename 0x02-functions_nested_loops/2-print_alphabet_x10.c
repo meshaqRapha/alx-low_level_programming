@@ -6,8 +6,8 @@
 */
 void print_alphabet_x10(void)
 {
-char c;
 char i;
+char c;
 :wq
 for (i = 0; i <= 9; i++)
 {
