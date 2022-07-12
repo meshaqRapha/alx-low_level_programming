@@ -12,14 +12,10 @@ void swap_int(int *a, int *b);
 
 int main(void)
 {
-
 	int temp;
 
 	temp = (*a);
-        (*a) = (*b);
+	(*a) = (*b);
 	(*b) = temp;
-	
-return (0);
-
 
 }
