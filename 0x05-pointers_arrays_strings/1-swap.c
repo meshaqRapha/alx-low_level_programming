@@ -1,26 +1,15 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
-* main - a function that swaps the values
-* of integers a and b
-* @a:integer a
-* @b:integer b
-*Return: Always 0
+* swap_int - function
+*
+* @a: pointer of parameter
+* @b: pointer of parameter
 */
-
-void swap_int(int *a, int *b);
-
-int main(void)
+void swap_int(int *a, int *b)
 {
-int a;
-int b;
+	int temp;
 
-a = 98;
-b = 42;
-printf("a=%d, b=%d\n", a, b);
-swap_int(&a, &b);
-printf("a=%d, b=%d\n", a, b);
-return (0);
-
+	temp = (*a);
+	(*a) = (*b);
+	(*b) = temp;
 }
